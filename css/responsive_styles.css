@@ -1,0 +1,888 @@
+@media screen and (min-width: 1100px){
+.container {
+    max-width: 1036px;
+}
+}
+@media screen and (min-width: 992px){
+.mobile-nav-buttons{
+    display: none!important;
+}
+.navbar-item {
+    display: flex;
+}
+.navbar-item, .navbar-link {
+    align-items: center;
+    display: flex;
+}
+}
+@media screen and (max-width: 991.98px){
+.navbar-brand .navbar-item, .navbar-tabs .navbar-item {
+    align-items: center;
+    display: flex;
+}
+.icon .fa{
+    padding-bottom: 16%;
+    font-size: 18px;
+}
+.shows_class{
+    display: none;
+}
+.header-navbar .navbar .brand-mark {
+    width: 70px;
+}
+.header_toggle_menu{
+    margin-top: 67px;
+}
+} 
+@media screen and (max-width:700px){
+.page_top_heading_body {
+    padding: 3rem 1.5rem;
+}
+.page_top_heading_title {
+    font-size: 2.5rem;
+}
+.each_section .section_title h1{
+    font-size: 2rem;
+}
+
+}
+@media screen and (min-width: 992px) and (max-width:1199.98px){
+.navbar .container,.page_top_heading .container, .each_section .container {
+    max-width: 836px;
+    padding: 0;
+}
+.single_card .single_img{
+    height: 193px;
+    width: 100%;
+}
+
+footer{
+    padding: 1rem 0;
+}
+.footer_left .footer_logo{
+    margin: 0% auto;
+}
+.footer_right{
+    align-items: center;
+}
+.footer_right .footer-links a {
+    font-size: 14px;
+    line-height: 2rem;
+}
+.footer_right .footer-links{
+    display: inline-flex;
+}
+.player_block{
+    height: 180px;
+}
+.player_container iframe {
+    height: 180px;
+}
+
+
+.detailpage_body_top{
+    padding: 1rem 1rem;
+}
+.show_image{
+    width: 35%;
+}
+.show_image img{
+    width: 90%;
+}
+.show_description{
+    width: 65%;
+}
+.detail_show_title{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.detail_show_subtext{
+    margin-bottom: 0.5rem;
+}
+.single_platform figure img {
+    height: 40px;
+    width: unset;
+}
+.show_share_block{
+    margin: 0.5rem 0;
+}
+.show_share_block h3{
+    margin-left: 0;
+    font-size: 20px;
+}
+.show_extra_tabs_block .nav-tabs a{
+    font-size: 0.9rem;
+}
+
+.about_first_block{
+    padding: 2rem 1rem;
+}
+.latest_episode_title h3,.episodes_single_card .episode_title{
+    font-size: 1rem;
+}
+.seemore_block a{
+    font-size: 0.7rem;
+}
+.episodes_single_card .episode_date{
+    margin-bottom: 0.5rem;
+}
+.episodes_single_card .show_title{
+    font-size: 0.6rem;
+}
+.episodes_single_card .summary_text{
+    font-size: 0.7rem;
+}
+
+.about_second_block,#nav-episodes, #nav-team{
+    padding: 1rem;
+}
+.about_second_block .about_block h2, .about_stories_block h2{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.3rem;
+}
+.about_second_block .about_block p{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.about_stories_block .page-card{
+    flex-direction: row;
+}
+.about_stories_block .card-content{
+    padding: 1rem;
+}
+.stories_div_full{
+    display: flow-root;
+}
+.about_stories_block .page-card-wrapper{
+    max-width: 100%;
+}
+.about_stories_block .page-card .page-card-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 50%;
+    max-width: 170px;
+}
+.about_stories_block .image img {
+    width: 65%;
+    margin: 0 auto;
+}
+.about_stories_block .page-card .page-card-body .title{
+    font-size: 1.1rem;
+}
+.about_stories_block .page-card .page-card-body .preview_text{
+    font-size:0.8rem;
+}
+.about_stories_block .page-card .page-card-body p{
+    margin-bottom: 0.5rem;
+}
+
+.plaform_listen_block{
+    padding-bottom: 1rem;
+}
+.plaform_listen_block .full_block{
+    margin-top: 15px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.single_icon_block figure {
+    height: 25px;
+    width: 25px;
+}
+
+.header_title{
+    font-size: 1.2rem;
+}
+.tab_single_episode_card{
+    margin: 0.8rem 0;
+}
+.tab_single_episode_card .card-body,.single_team_block{
+    padding:1rem;
+}
+.team_member_name,.tweet_id{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.tweet_id a{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+.single_team_box{
+    max-width: 33.3%;
+}
+.member_review{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.member_review p{
+    margin-bottom: 0.5rem;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width:991.92px){
+.navbar .container,.page_top_heading .container, .each_section .container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.single_card .single_img{
+    height: 163px;
+    width: 100%;
+}
+
+footer{
+    padding: 1rem 0;
+}
+.footer_left .footer_logo{
+    margin: 0% auto;
+}
+.footer_right{
+    align-items: center;
+}
+.footer_right .footer-links a {
+    font-size: 14px;
+    line-height: 2rem;
+}
+.footer_right .footer-links{
+    display: inline-flex;
+}
+.player_block{
+    height: 160px;
+}
+.player_container iframe {
+    height: 160px;
+}
+
+.detailpage_body .container,.show_extra_tabs_content .container{
+    max-width: 98%;
+    padding: 0;
+}
+.detailpage_body_top{
+    padding: 1rem 1rem;
+}
+.show_image{
+    width: 35%;
+}
+.show_image img{
+    width: 90%;
+}
+.show_description{
+    width: 65%;
+}
+.detail_show_title{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.detail_show_subtext{
+    margin-bottom: 0.5rem;
+}
+.single_platform figure img {
+    height: 40px;
+    width: unset;
+}
+.show_share_block{
+    margin: 0.5rem 0;
+}
+.show_share_block h3{
+    margin-left: 0;
+    font-size: 20px;
+}
+.show_extra_tabs_block .nav-tabs a{
+    font-size: 0.9rem;
+}
+
+.about_first_block{
+    padding: 1.5rem 1rem;
+}
+.latest_episode_title h3,.episodes_single_card .episode_title{
+    font-size: 1rem;
+}
+.seemore_block a{
+    font-size: 0.7rem;
+}
+.episodes_single_card .episode_date{
+    margin-bottom: 0.5rem;
+}
+.episodes_single_card .show_title{
+    font-size: 0.6rem;
+}
+.episodes_single_card .summary_text{
+    font-size: 0.7rem;
+}
+
+.about_second_block,#nav-episodes, #nav-team{
+    padding: 1rem;
+}
+.about_second_block .about_block h2, .about_stories_block h2{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.3rem;
+}
+.about_second_block .about_block p{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.about_stories_block .page-card{
+    flex-direction: row;
+}
+.about_stories_block .card-content{
+    padding: 1rem;
+}
+.stories_div_full{
+    display: flow-root;
+}
+.about_stories_block .page-card-wrapper{
+    max-width: 100%;
+}
+.about_stories_block .page-card .page-card-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 50%;
+    max-width: 170px;
+}
+.about_stories_block .image img {
+    width: 65%;
+    margin: 0 auto;
+}
+.about_stories_block .page-card .page-card-body .title{
+    font-size: 1.1rem;
+}
+.about_stories_block .page-card .page-card-body .preview_text{
+    font-size:0.8rem;
+}
+.about_stories_block .page-card .page-card-body p{
+    margin-bottom: 0.5rem;
+}
+
+.plaform_listen_block{
+    padding-bottom: 1rem;
+}
+.plaform_listen_block .full_block{
+    margin-top: 15px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.single_icon_block figure {
+    height: 25px;
+    width: 25px;
+}
+
+.header_title{
+    font-size: 1.2rem;
+}
+.tab_single_episode_card{
+    margin: 0.8rem 0;
+}
+.tab_single_episode_card .card-body,.single_team_block{
+    padding:1rem;
+}
+.team_member_name,.tweet_id{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.tweet_id a{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+.single_team_box{
+    max-width: 50%;
+}
+.member_review{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.member_review p{
+    margin-bottom: 0.5rem;
+}
+
+}
+
+@media screen and (min-width: 576px) and (max-width:767.98px){
+.navbar .container,.page_top_heading .container, .each_section .container {
+    max-width: 100%;
+    padding: 0;
+}
+.single_card .single_img{
+    height: 145px;
+    width: 100%;
+}
+.single_card_show_title{
+    text-align: center;
+}
+.single_card_show_title a{
+    font-size: 15px;
+}
+
+
+footer{
+    padding: 1rem 0;
+}
+.footer_left .footer_logo{
+    text-align: center;
+    margin: 10% auto;
+    display: block;
+    width: 50px;
+}
+.footer_right{
+    justify-content: space-around;
+}
+.footer_right .footer-links a {
+    font-size: 12px;
+    line-height: 1rem;
+}
+.footer_right .footer-links{
+    flex-direction: column;
+}
+
+.player_block{
+    height: 152px;
+}
+.player_container iframe {
+    height: 152px;
+}
+
+.detailpage_body .container,.show_extra_tabs_content .container{
+    max-width: 100%;
+    padding: 0;
+}
+.detailpage_body_top{
+    padding: 1rem 1rem;
+}
+.show_image{
+    width: 35%;
+}
+.show_image img{
+    width: 90%;
+}
+.show_description{
+    width: 65%;
+}
+.detail_show_title{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.detail_show_subtext{
+    margin-bottom: 0.5rem;
+}
+.single_platform figure img {
+    height: 40px;
+    width: unset;
+}
+.show_share_block{
+    margin: 0.5rem 0;
+}
+.show_share_block h3{
+    margin-left: 0;
+    font-size: 20px;
+}
+.show_extra_tabs_block .nav-tabs a{
+    font-size: 0.9rem;
+}
+
+.about_first_block{
+    padding: 1.5rem 1rem;
+}
+.latest_episode_title h3,.episodes_single_card .episode_title{
+    font-size: 1rem;
+}
+.seemore_block a{
+    font-size: 0.7rem;
+}
+.episodes_single_card .episode_date{
+    margin-bottom: 0.5rem;
+}
+.episodes_single_card .show_title{
+    font-size: 0.6rem;
+}
+.episodes_single_card .summary_text{
+    font-size: 0.7rem;
+}
+
+.about_second_block,#nav-episodes, #nav-team{
+    padding: 1rem;
+}
+.about_second_block .about_block h2, .about_stories_block h2{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.3rem;
+}
+.about_second_block .about_block p{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.about_stories_block .page-card{
+    flex-direction: row;
+}
+.about_stories_block .card-content{
+    padding: 1rem;
+}
+.stories_div_full{
+    display: flow-root;
+}
+.about_stories_block .page-card-wrapper{
+    max-width: 100%;
+}
+.about_stories_block .page-card .page-card-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 50%;
+    max-width: 170px;
+}
+.about_stories_block .image img {
+    width: 65%;
+    margin: 0 auto;
+}
+.about_stories_block .page-card .page-card-body .title{
+    font-size: 1.1rem;
+}
+.about_stories_block .page-card .page-card-body .preview_text{
+    font-size:0.8rem;
+}
+.about_stories_block .page-card .page-card-body p{
+    margin-bottom: 0.5rem;
+}
+
+.plaform_listen_block{
+    padding-bottom: 1rem;
+}
+.plaform_listen_block .full_block{
+    margin-top: 15px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.single_icon_block figure {
+    height: 25px;
+    width: 25px;
+}
+
+.header_title{
+    font-size: 1.2rem;
+}
+.tab_single_episode_card{
+    margin: 0.8rem 0;
+}
+.tab_single_episode_card .card-body,.single_team_block{
+    padding:1rem;
+}
+.team_member_name,.tweet_id{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.tweet_id a{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+.single_team_box{
+    max-width: 50%;
+}
+.member_review{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.member_review p{
+    margin-bottom: 0.5rem;
+}
+
+}
+
+@media screen and (max-width: 575.98px){
+.single_card .single_img{
+    height: 173px;
+    width: 100%;
+}
+
+footer{
+    padding: 1rem 0;
+}
+.footer_left .footer_logo{
+    text-align: center;
+    margin: 14% auto;
+    display: block;
+    width: 50px;
+}
+.footer_right{
+    justify-content: space-around;
+}
+.footer_right .footer-links a {
+    font-size: 12px;
+    line-height: 1rem;
+}
+.footer_right .footer-links{
+    flex-direction: column;
+}
+
+.player_block{
+    height: 152px;
+}
+.player_container iframe {
+    height: 152px;
+}
+
+.detailpage_body_top{
+    padding: 1rem 1rem;
+}
+.show_image{
+    margin: 0 auto;
+    text-align: center;
+}
+.show_image img{
+    width: 65%;
+}
+.detail_show_title{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.detail_show_subtext{
+    margin-bottom: 0.5rem;
+}
+.single_platform figure img {
+    height: 40px;
+    width: 100%;
+}
+.show_share_block{
+    margin: 0.5rem 0;
+}
+.show_share_block h3{
+    margin-left: 0;
+    font-size: 20px;
+}
+.show_extra_tabs_block .nav-tabs a{
+    font-size: 0.9rem;
+}
+
+.about_first_block{
+    padding: 1.5rem 1rem;
+}
+.latest_episode_title h3,.episodes_single_card .episode_title{
+    font-size: 1rem;
+}
+.seemore_block a{
+    font-size: 0.7rem;
+}
+.episodes_single_card .episode_date{
+    margin-bottom: 0.5rem;
+}
+.episodes_single_card .show_title{
+    font-size: 0.6rem;
+}
+.episodes_single_card .summary_text{
+    font-size: 0.7rem;
+}
+
+.about_second_block,#nav-episodes, #nav-team{
+    padding: 1rem;
+}
+.about_second_block .about_block h2, .about_stories_block h2{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.3rem;
+}
+.about_second_block .about_block p{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.about_stories_block .page-card{
+    flex-direction: column;
+}
+.about_stories_block .card-content{
+    padding: 1rem;
+}
+.stories_div_full{
+    display: flow-root;
+}
+.about_stories_block .page-card-wrapper{
+    max-width: 49%;
+    margin:  0.5%;
+    float: left;
+}
+.about_stories_block .page-card .page-card-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: unset;
+}
+.about_stories_block .image img {
+    width: 65%;
+    margin: 0 auto;
+}
+.about_stories_block .page-card .page-card-body .title{
+    font-size: 1.1rem;
+}
+.about_stories_block .page-card .page-card-body .preview_text{
+    font-size:0.8rem;
+}
+.about_stories_block .page-card .page-card-body p{
+    margin-bottom: 0.5rem;
+}
+
+.plaform_listen_block{
+    padding-bottom: 1rem;
+}
+.plaform_listen_block .full_block{
+    margin-top: 15px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.single_icon_block figure {
+    height: 25px;
+    width: 25px;
+}
+
+.header_title{
+    font-size: 1.2rem;
+}
+.tab_single_episode_card{
+    margin: 0.8rem 0;
+}
+.tab_single_episode_card .card-body,.single_team_block{
+    padding:1rem;
+}
+.team_member_name,.tweet_id{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.tweet_id a{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+.member_review{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.member_review p{
+    margin-bottom: 0.5rem;
+}
+
+/***player css ***/
+.player_block{
+    height: 152px;
+}
+.full_player_block,.player{
+    height:152px;
+}
+.podcast_img_block img {
+    top: 25px;
+    left: 8px;
+    width: 104px;
+    height: 104px;
+    border-radius: 0.5rem;
+}
+.podcast_img_block {
+    float: left;
+    max-width: 26%;
+    flex: 0 0 26%;
+    -ms-flex: 0 0 26%;
+}
+.rightside_player {
+    max-width: 73%;
+    flex: 0 0 73%;
+    -ms-flex: 0 0 73%;
+}
+.podcast_title h1{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-height: 50px;
+    overflow: hidden;
+}
+.podcast_title h2{
+    font-size:0.7rem;
+    line-height: 1.5rem;
+    max-height: 30px;
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+.podcast_name_block{
+    margin-top: 9%;
+}
+.play_block audio{
+    height: 35px;
+}
+.platform_block{
+    top: 0px;
+    width: 50px;
+    right: 5px;
+}
+
+}
+@media screen and (max-width: 360px){
+.single_card .single_img {
+    height: 147px;
+    width: 100%;
+}
+.single_card_show_title a {
+    font-size: 15px;
+}
+
+
+.show_image img{
+    width: 65%;
+}
+.detail_show_title{
+    font-size: 2rem;
+}
+
+.single_platform figure img {
+    height: 40px;
+    width: 100%;
+}
+
+.show_share_block h3{
+    font-size: 20px;
+}
+.show_extra_tabs_block .nav-tabs a{
+    font-size: 0.9rem;
+}
+
+
+.latest_episode_title h3,.episodes_single_card .episode_title{
+    font-size: 1rem;
+}
+.seemore_block a{
+    font-size: 0.7rem;
+}
+
+.episodes_single_card .show_title{
+    font-size: 0.6rem;
+}
+.episodes_single_card .summary_text{
+    font-size: 0.7rem;
+}
+
+
+.about_second_block .about_block h2, .about_stories_block h2{
+    font-size: 1.3rem;
+}
+.about_second_block .about_block p{
+    font-size: 1rem;
+}
+
+
+.about_stories_block .image img {
+    width: 65%;
+    margin: 0 auto;
+}
+.about_stories_block .page-card .page-card-body .title{
+    font-size: 1.1rem;
+}
+.about_stories_block .page-card .page-card-body .preview_text{
+    font-size:0.8rem;
+}
+
+.header_title{
+    font-size: 1.2rem;
+}
+.team_member_name,.tweet_id{
+    font-size: 1rem;
+}
+.tweet_id a{
+    font-size: 0.8rem;
+}
+
+
+
+}
