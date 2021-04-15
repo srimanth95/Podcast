@@ -323,14 +323,26 @@ footer{
     background-color: #000;
     padding: 2em 1.5em;
 }
+.footer_left,.footer_right {
+    padding: 0;
+}
+.footer_left .footer_logo{
+    width: 75px;
+    display: inline-block;
+}
 .footer_left .footer_logo img{
     border-radius: 5px;
+    height: 100%;
+    width: 100%;
 }
 .footer_right{
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 .footer_right .footer-links{
-    float: right;
+    display: flex;
+    flex-direction: row;
 }
 .footer_right .footer-links a {
     margin: .25em .75em;
